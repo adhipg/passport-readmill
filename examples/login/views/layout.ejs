@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Passport-Readmill Example</title>
+  </head>
+  <body>
+  <% if (!user) { %>
+    <p>
+      <a href="/">Home</a> |
+      <a href="/login">Log in</a>
+    </p>
+  <% } else { %>
+    <p>
+      <a href="/">Home</a> |
+      <a href="/account">Account</a> |
+      <a href="/logout">Log out</a>
+    </p>
+  <% } %>
+  <%- body %>
+  </body>
+</html>

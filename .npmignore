@@ -1,0 +1,13 @@
+README.md
+Makefile
+doc/
+examples/
+test/
+
+.DS_Store
+
+.npmignore
+node_modules/
+npm-debug.log
+
+.git*

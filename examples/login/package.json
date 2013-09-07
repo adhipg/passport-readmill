@@ -1,0 +1,11 @@
+{
+  "name": "passport-readmill-examples-login",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "latest",
+    "ejs": "latest",
+    "passport": "latest",
+    "passport-readmill": "latest",
+    "coffee-script": "latest"
+  }
+}
